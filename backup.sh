@@ -1,3 +1,5 @@
+#!/bin/sh
+
 function createFullBackup(){
     if  ! [ -d "$1" ]; then
         echo "Adresar $1 neexistuje."
